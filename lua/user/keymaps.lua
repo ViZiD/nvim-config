@@ -48,7 +48,7 @@ keymap("v", ">", ">gv", opts)
 -- Plugins --
 
 -- NvimTree
-keymap("n", "<leader>e", ":lua require'nvim-tree'.toggle()<CR>", opts)
+keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
 -- -- Telescope
 -- keymap("n", "<leader>d", ":Telescope find_files<CR>", opts)
